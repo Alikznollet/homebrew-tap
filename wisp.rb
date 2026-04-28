@@ -10,7 +10,7 @@ class Wisp < Formula
   on_macos do
     on_intel do
       url "https://github.com/Alikznollet/godot-wisp/releases/download/v0.0.1/wisp_Darwin_x86_64.tar.gz"
-      sha256 "98edc0743d8071147eb3123eaae78faf88115e4dafdf99335b333fd02d8a8d21"
+      sha256 "e52b79048ab16d56bbe07c51eded91f3067ae258a252fe2106501002f6ba2d41"
 
       def install
         bin.install "wisp"
@@ -18,7 +18,7 @@ class Wisp < Formula
     end
     on_arm do
       url "https://github.com/Alikznollet/godot-wisp/releases/download/v0.0.1/wisp_Darwin_arm64.tar.gz"
-      sha256 "8bda9858b6a55c4cb972a64d738826d48187a09032519f5124a330356dfc5632"
+      sha256 "0ca5443ccb78f63e65196e2985955e8e97352a919849a155d6d3f758ae89efc4"
 
       def install
         bin.install "wisp"
@@ -30,7 +30,7 @@ class Wisp < Formula
     on_intel do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/Alikznollet/godot-wisp/releases/download/v0.0.1/wisp_Linux_x86_64.tar.gz"
-        sha256 "7efb1bc4abe9142d12379b03e3acefbd03a33f9d38e94ec68514059249b4e230"
+        sha256 "7dc0945f8d18301b0964ba42c80ad9648df62949f3aa226a7d1290e40c3bb99f"
 
         def install
           bin.install "wisp"
@@ -40,7 +40,7 @@ class Wisp < Formula
     on_arm do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/Alikznollet/godot-wisp/releases/download/v0.0.1/wisp_Linux_arm64.tar.gz"
-        sha256 "f617084da9cb7683191e71cfa76f8bf830074ca4adea566434fe02dab91a8a30"
+        sha256 "3d9f4b70dbfe64c3975faa8df18b2a9eb8eeb402c3b46f26dab6d16f608257f7"
 
         def install
           bin.install "wisp"
