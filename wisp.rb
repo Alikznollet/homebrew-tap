@@ -5,20 +5,20 @@
 class Wisp < Formula
   desc "A completely optional package manager for Godot Addons."
   homepage "https://github.com/alikznollet/godot-wisp"
-  version "0.3.0"
+  version "1.0.0"
 
   on_macos do
     on_intel do
-      url "https://github.com/Alikznollet/godot-wisp/releases/download/v0.3.0/wisp_Darwin_x86_64.tar.gz"
-      sha256 "d89881c66130aa3ebf02e6f44175dfa3b97c35e4b42a182b26f5e2b8f54dbe08"
+      url "https://github.com/Alikznollet/godot-wisp/releases/download/v1.0.0/wisp_Darwin_x86_64.tar.gz"
+      sha256 "8eef499b9d176b0ff985b61e13d492b6292dab5447ed0d6bad6d0bca4d4300d4"
 
       def install
         bin.install "wisp"
       end
     end
     on_arm do
-      url "https://github.com/Alikznollet/godot-wisp/releases/download/v0.3.0/wisp_Darwin_arm64.tar.gz"
-      sha256 "b65707b88ad92263380a8a71a89d6c5cabaf37436f922301bdb9e3501ea874df"
+      url "https://github.com/Alikznollet/godot-wisp/releases/download/v1.0.0/wisp_Darwin_arm64.tar.gz"
+      sha256 "444d7d7cba6a13d779eb75dfabb01e04533dd5d1a8f937ef31cc8d9c5ba6bb73"
 
       def install
         bin.install "wisp"
@@ -29,8 +29,8 @@ class Wisp < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/Alikznollet/godot-wisp/releases/download/v0.3.0/wisp_Linux_x86_64.tar.gz"
-        sha256 "828cb04e6ac892bd417f36cacedb11fb8882e967c22d0140c704993695facac2"
+        url "https://github.com/Alikznollet/godot-wisp/releases/download/v1.0.0/wisp_Linux_x86_64.tar.gz"
+        sha256 "58876134aa91adcf7995a6deec1694220cb7b54d4fcd26db3f7188b8832e890d"
 
         def install
           bin.install "wisp"
@@ -39,8 +39,8 @@ class Wisp < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/Alikznollet/godot-wisp/releases/download/v0.3.0/wisp_Linux_arm64.tar.gz"
-        sha256 "d419e2aefd1201c90989f9e35cd46cdc6f8bdc9315f210145dbba41c8e45565e"
+        url "https://github.com/Alikznollet/godot-wisp/releases/download/v1.0.0/wisp_Linux_arm64.tar.gz"
+        sha256 "beba1c8fb39efe9fae78ce9b525eb711fbf04921f9fb3e3c0e1cdbaaac50748d"
 
         def install
           bin.install "wisp"
